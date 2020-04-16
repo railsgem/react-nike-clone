@@ -1,0 +1,50 @@
+@import '../share/glyphs.min.css';
+
+.member-header__wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: white;
+    /* padding: 12px; */
+    color: #757575;
+    font-size: 12px;
+    box-shadow: inset 0 -1px 0 0 #e5e5e5;
+}
+
+.member-header__left, 
+.member-header__right {
+    display: flex;
+} 
+.member-header__left > div,
+.member-header__right > div
+{
+    padding: 12px;
+}
+.member-header__left > div {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.header__nav_item {
+    box-shadow: inset -1px 0 0 0 #e5e5e5;
+}
+.map-icon {
+    background: transparent;
+    padding-left: 0;
+    color: #757575;
+    line-height: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    transition: color .35s ease;;
+}
+.map-icon path {
+    fill:  #757575;
+    padding-bottom: 10px;
+}
+
+.jordan-icon, .cart-icon {
+    font-size: 18px;
+}
+.map-icon label {
+    padding-left: 2px;
+}
