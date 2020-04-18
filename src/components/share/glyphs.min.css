@@ -1,4 +1,11 @@
 @font-face {
+  font-family: "Nike TG";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Futura Condensed Extra Bold.otf),url(../fonts/257c802f-349c-4b4d-aefa-546d5de15ec6.eot?#iefix) format('embedded-opentype')
+}
+
+@font-face {
   font-family: nike-glyphs;
   src: url(../fonts/nike-glyphs.eot);
   src: url(../fonts/nike-glyphs.eot?#iefix) format("eot"),
