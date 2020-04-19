@@ -20,7 +20,6 @@ export default class NavMenu extends Component {
                 <div className='search-container'>
                     <input className='search-input' placeholder='Search'></input>
                     <div className='search-icon__warp'><i className='g72-search search-icon'></i></div>
-                    
                 </div>
             </div>
         )
