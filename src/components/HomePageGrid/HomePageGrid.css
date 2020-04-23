@@ -141,8 +141,6 @@
 .card-overlay-4 {
     display: flex;
     justify-content: center;
-
-
 }
 .card-overlay-content {
     width: 50%;
@@ -177,4 +175,79 @@
 }
 .secondary__sub-title-h3 {
     color: black;
+}
+.card-overlay-7 {
+    position: absolute;
+    justify-content: flex-end;
+    top: calc(92% - 48px);
+    height: 33.33333%;
+    text-align: left;
+    left:calc(48px);
+    width: 25%;
+}
+
+.card-overlay-8 {
+    position: absolute;
+    justify-content: flex-end;
+    top: calc(92% - 48px);
+    height: 33.33333%;
+    text-align: left;
+    left:calc(33.66667% + 48px);
+    width: 25%;
+}
+
+.card-overlay-9 {
+    position: absolute;
+    justify-content: flex-end;
+    top: calc(92% - 48px);
+    height: 33.33333%;
+    text-align: left;
+    left:calc(66.66667% + 48px);
+    width: 25%;
+}
+.section-headline {
+    margin-top: 20px;
+}
+
+.merch-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:50px;
+    padding-left:150px;
+    padding-right:150px;
+    padding-bottom: 50px;
+}
+.merch-menu-grid-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.merch-menu ul, 
+.merch-menu li {
+    margin: 0px;
+    padding: 0px;
+    margin-left: -16px;
+} 
+.merch-menu li {
+    padding-left: -20px;
+    color: #757575;
+    transition: all .3s;
+    display: block;
+    font-weight: 500;
+    font-family: inherit;
+    font-size: inherit;
+    text-transform: capitalize;
+    transform: none;
+    margin: 15px;
+    letter-spacing: 0;
+}
+.merch-menu__h3 {
+    padding: 0px;
+    margin-left: -1px;
+    margin-bottom: 30px;
+}
+.merch-menu__column {
+    padding: 25px;
 }
