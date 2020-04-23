@@ -169,3 +169,12 @@
 .paly-icon {
     padding-left: 10px;
 }
+.primary__sub-title-h3, .secondary__sub-title-h3 {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.secondary__sub-title-h3 {
+    color: black;
+}

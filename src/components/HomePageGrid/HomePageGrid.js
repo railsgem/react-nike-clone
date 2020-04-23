@@ -4,6 +4,8 @@ import image1 from "./../../images/nike-just-do-it-1.jpg";
 import image2 from "./../../images/nike-just-do-it-2.jpg";
 import image3 from "./../../images/nike-just-do-it-3.jpg";
 import image4 from "./../../images/image4.jpg";
+import image5 from "./../../images/nike-just-do-it-5.jpg";
+import image6 from "./../../images/nike-just-do-it-6.jpg";
 
 export default class HomePageGrid extends Component {
   render() {
@@ -87,6 +89,41 @@ export default class HomePageGrid extends Component {
             </div>
           </div>
         </div>
+
+        <div className="grid-wrap">
+          <div className="section-headline">
+            <h2 className="headline-3">Don’t Miss</h2>
+          </div>
+          <div className="grid-row">
+            <div className="grid-item">
+              <div className="image-two__div">
+                <img
+                  className="image-two"
+                  src={image5}
+                  alt="nike-just-do-it-5.jpg"
+                />
+              </div>
+              <div className="card-overlay-2">
+                <p className="primary__sub-title-h3">Nike Infinalon: A New Fabric Just for Yoga</p>
+                <button className="primary__button">Shop</button>
+              </div>
+            </div>
+            <div className="grid-item">
+              <div className="image-three__div">
+                <img
+                  className="image-three"
+                  src={image6}
+                  alt="nike-just-do-it-6.jpg"
+                />
+              </div>
+              <div className="card-overlay-3">
+                <p className="secondary__sub-title-h3">Nike Air Zoom SuperRep Go</p>
+                <button className="secondary__button">Shop</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     );
   }
